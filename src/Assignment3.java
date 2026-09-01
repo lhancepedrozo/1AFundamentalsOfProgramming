@@ -1,4 +1,4 @@
-public class UserInfo {
+public class Assignment3 {
 
     public static void main(String[] args) {
         String firstName = "Lhance Gerald", lastName = "Pedrozo",
