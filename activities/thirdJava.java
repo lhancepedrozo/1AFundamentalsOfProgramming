@@ -13,6 +13,6 @@ public class thirdJava {
             System.out.println("Error!");
         }
 
-        System.out.println("Hello: " + name + "!");
+        System.out.println("Hello " + name + "!");
     }
 }

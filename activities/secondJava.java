@@ -9,7 +9,7 @@ public class secondJava {
 
         //Prints all the variable values.
         System.out.print(
-                        "Name: " + name + "\n" +
+                "Name: " + name + "\n" +
                         "Address: " + address + "\n" +
                         "Age: " + age + "\n" +
                         "Mobile Number: " + contactNum + "\n" +

@@ -12,6 +12,7 @@ public class fourthJava {
             writer.write("This is the second line of text.");
             writer.newLine();
             writer.write("BufferedWriter makes writing fast and efficient.");
+            System.out.println("Data Successfully written to the file!");
         }catch(IOException e){
             System.out.println("An error occured while writing to the file.");
             e.printStackTrace();
