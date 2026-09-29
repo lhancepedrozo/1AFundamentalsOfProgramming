@@ -15,6 +15,16 @@ public class LabQuiz3 {
 
         //Ask the user to input customers pay
         double customerPay = Double.parseDouble(JOptionPane.showInputDialog("Please Enter the Customer Money Gave"));
+
+        //Declares variables for the extra charges
+        double serviceCharge = 0.12;
+        double salesTax = 0.07;
+        double serviceChargeFee = grossBill * serviceCharge, salesTaxFee = grossBill * salesTax;
+
+        //Calculates the net bill and change of the customer
+        double netBill = grossBill + serviceChargeFee + salesTaxFee;
+
+        //Checks if the money is enough
         while (customerPay < netBill) {
             JOptionPane.showMessageDialog(null, "Insufficient payment!");
 
