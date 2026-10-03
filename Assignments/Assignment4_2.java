@@ -19,36 +19,26 @@ public class Assignment4_2 {
         System.out.print("Enter recomendee code: ");
         char recomendee = input.nextLine().charAt(0);
 
-        if (height >= 200) {
+        if (code == 'R' || code == 'r') {
+            System.out.println("You are accepted!");
 
-            if(age >= 21 && age <= 25) {
+        } else if ( code == 'C' || code == 'c'){
+            if (height >= 200) {
 
-                if (recomendee == 'R' || recomendee == 'r') {
+                if(age >= 21 && age <= 25) {
                     System.out.println("You are accepted!");
-                } else if (recomendee == 'N' || recomendee == 'n'){
-                    System.out.print("Enter citizenship code: ");
-                    char citizenship = input.nextLine().charAt(0);
-
-                    if (citizenship == 'C' || citizenship == 'c') {
-                        System.out.println("You are accepted!");
-                    } else if (citizenship == 'N' || citizenship == 'n') {
-                        System.out.println("You are rejected!");
-                    } else {
-                        System.out.print("Invalid Citizenship code!");
-                    }
                 } else {
-                    System.out.print("Invalid Recomendee code!");
+                    System.out.println("You are rejected!");
                 }
 
             } else {
                 System.out.println("You are rejected!");
             }
-
-        } else {
+        } else if (code == 'N' || code == 'n') {
             System.out.println("You are rejected!");
+        } else {
+            System.out.println("Invalid Code");
         }
-
-
 
     }
 }

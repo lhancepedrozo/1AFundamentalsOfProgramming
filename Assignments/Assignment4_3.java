@@ -13,29 +13,18 @@ public class Assignment4_3 {
         String recomendeeInput = JOptionPane.showInputDialog("Enter recomendee code");
         char recomendee = recomendeeInput.charAt(0);
 
-        if (height >= 200) {
+        if (code == 'R' || code == 'r') {
+            String output = "You are accepted!";
+            JOptionPane.showMessageDialog(null, output);
 
-            if(age >= 21 && age <= 25) {
+        } else if ( code == 'C' || code == 'c'){
+            if (height >= 200) {
 
-                if (recomendee == 'R' || recomendee == 'r') {
+                if(age >= 21 && age <= 25) {
                     String output = "You are accepted!";
                     JOptionPane.showMessageDialog(null, output);
-                } else if (recomendee == 'N' || recomendee == 'n'){
-                    String citizenshipInput = JOptionPane.showInputDialog("Enter citizenship code");
-                    char citizenship = recomendeeInput.charAt(0);
-
-                    if (citizenship == 'C' || citizenship == 'c') {
-                        String output = "You are accepted!";
-                        JOptionPane.showMessageDialog(null, output);
-                    } else if (citizenship == 'N' || citizenship == 'n') {
-                        String output = "You are rejected!";
-                        JOptionPane.showMessageDialog(null, output);
-                    } else {
-                        String output = "Invalid Citizenship code!";
-                        JOptionPane.showMessageDialog(null, output);
-                    }
                 } else {
-                    String output = "Invalid Recomendee code!";
+                    String output = "You are rejected!";
                     JOptionPane.showMessageDialog(null, output);
                 }
 
@@ -43,9 +32,11 @@ public class Assignment4_3 {
                 String output = "You are rejected!";
                 JOptionPane.showMessageDialog(null, output);
             }
-
+        } else if (code == 'N' || code == 'n') {
+            String output = "You are rejected";
+            JOptionPane.showMessageDialog(null, output);
         } else {
-            String output = "You are rejected!";
+            String output = "Invalid Code";
             JOptionPane.showMessageDialog(null, output);
         }
     }
