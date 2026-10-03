@@ -15,9 +15,10 @@ public class Assignment4_2 {
 
         System.out.print("Enter age: ");
         int age = input.nextInt();
+        input.nextLine();
 
-        System.out.print("Enter recomendee code: ");
-        char recomendee = input.nextLine().charAt(0);
+        System.out.print("Enter code: ");
+        char recomendee = input.next().charAt(0);
 
         if (code == 'R' || code == 'r') {
             System.out.println("You are accepted!");
