@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Assignment2_2 {
+public class Assignment2_Scanner {
     /** This code asks the user for hourly pay and hours worked and the code computes
      *  the gross pay and identify the withholding tax and computes for net pay. */
     public static void main(String[] args) {

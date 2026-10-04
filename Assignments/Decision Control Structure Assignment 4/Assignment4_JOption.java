@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Assignment4_3 {
+public class Assignment4_JOption {
     /** This code asks the user to input the applicant’s height, age, citizenship code(“C” for citizen of Endor,
      * “N” for non-citizen), and recommendee code (“R” for recommendee, “N” for non-recommendee) and then
      * output whether the applicant is accepted or rejected. */

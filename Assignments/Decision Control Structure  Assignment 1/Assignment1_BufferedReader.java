@@ -1,9 +1,8 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-import java.nio.Buffer;
 
-public class Assignment1_1 {
+public class Assignment1_BufferedReader {
     /** This code asks the user for a year input then
      *  identifies if it is a leap year or not */
 

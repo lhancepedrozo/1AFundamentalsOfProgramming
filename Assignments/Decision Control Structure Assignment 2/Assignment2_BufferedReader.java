@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Assignment2_1 {
+public class Assignment2_BufferedReader {
     /** This code asks the user for hourly pay and hours worked and the code computes
      *  the gross pay and identify the withholding tax and computes for net pay. */
     public static void main(String[] args) {

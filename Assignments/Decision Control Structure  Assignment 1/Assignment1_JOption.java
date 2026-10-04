@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Assignment1_3 {
+public class Assignment1_JOption {
     /** This code asks the user for a year
      *  input then identifies if it is a
      *  leap year or not */

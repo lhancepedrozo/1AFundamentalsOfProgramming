@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Assignment4_1 {
+public class Assignment4_BufferedReader {
     /** This code asks the user to input the applicant’s height, age, citizenship code(“C” for citizen of Endor,
      * “N” for non-citizen), and recommendee code (“R” for recommendee, “N” for non-recommendee) and then
      * output whether the applicant is accepted or rejected. */

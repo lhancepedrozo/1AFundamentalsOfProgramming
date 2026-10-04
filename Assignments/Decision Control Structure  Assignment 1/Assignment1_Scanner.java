@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Assignment1_2 {
+public class Assignment1_Scanner {
     /** This code asks the user for a year
      *  input then identifies if it is a
      *  leap year or not */

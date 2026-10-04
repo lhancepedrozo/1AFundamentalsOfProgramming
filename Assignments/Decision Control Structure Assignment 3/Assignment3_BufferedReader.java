@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class Assignment3_1 {
+public class Assignment3_BufferedReader {
     /** This code asks the user to input parents salary, NSAT score, and entrance exam score
      * and then identify if he/she is accepted, rejected, or need further study. */
     public static void main(String[] args) {
