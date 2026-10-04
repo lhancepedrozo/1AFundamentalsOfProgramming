@@ -18,7 +18,7 @@ public class Assignment4_Scanner {
         input.nextLine();
 
         System.out.print("Enter code: ");
-        char recomendee = input.next().charAt(0);
+        char code = input.next().charAt(0);
 
         if (code == 'R' || code == 'r') {
             System.out.println("You are accepted!");

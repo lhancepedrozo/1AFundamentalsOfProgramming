@@ -14,8 +14,8 @@ public class Assignment1_Scanner {
         int year = input.nextInt();
 
         // Identify if the year is leap year or not
-        int identify = year % 4;
-        if (identify == 0) {
+        boolean identify = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+        if (identify) {
             System.out.printf("The year %d is a leap year.", year);
         } else {
             System.out.printf("The year %d is not a leap year.", year);

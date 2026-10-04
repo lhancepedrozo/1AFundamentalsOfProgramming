@@ -10,8 +10,8 @@ public class Assignment4_JOption {
 
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter height in cm"));
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter age"));
-        String recomendeeInput = JOptionPane.showInputDialog("Enter recomendee code");
-        char recomendee = recomendeeInput.charAt(0);
+        String codeInput = JOptionPane.showInputDialog("Enter code");
+        char code = codeInput.charAt(0);
 
         if (code == 'R' || code == 'r') {
             String output = "You are accepted!";

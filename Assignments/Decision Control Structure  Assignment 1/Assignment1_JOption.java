@@ -12,8 +12,8 @@ public class Assignment1_JOption {
         int year = Integer.parseInt(JOptionPane.showInputDialog("Enter a Year"));
 
         // Identify if the year is leap year or not
-        int identify = year % 4;
-        if (identify == 0) {
+        boolean identify = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+        if (identify) {
             String output = String.format("The year %d is a leap year.", year);
             JOptionPane.showMessageDialog(null, output);
         } else {

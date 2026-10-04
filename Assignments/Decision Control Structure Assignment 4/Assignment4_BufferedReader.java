@@ -22,9 +22,9 @@ public class Assignment4_BufferedReader {
             String ageInput = input.readLine();
             int age = Integer.parseInt(ageInput);
 
-            System.out.print("Enter recomendee code: ");
-            String recomendeeInput = input.readLine();
-            char recomendee = recomendeeInput.charAt(0);
+            System.out.print("Enter code: ");
+            String codeInput = input.readLine();
+            char code = codeInput.charAt(0);
 
             if (code == 'R' || code == 'r') {
                 System.out.println("You are accepted!");
